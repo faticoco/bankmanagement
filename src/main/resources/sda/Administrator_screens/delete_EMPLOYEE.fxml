@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sda.RemoveEmpController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="345.0" layoutX="29.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <ImageView fitHeight="345.0" fitWidth="542.0" layoutX="30.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/create.png" />
+         </image>
+      </ImageView>
+      <Text fill="#06560e" layoutX="222.0" layoutY="97.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Employee">
+         <font>
+            <Font name="Bodoni MT Bold" size="30.0" />
+         </font>
+      </Text>
+      <Text fill="#0c3f08" layoutX="285.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CNIC" wrappingWidth="106.807373046875">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <TextField fx:id="emp_id_field" layoutX="236.0" layoutY="187.0" prefHeight="26.0" prefWidth="178.0" />
+      <Button fx:id="del_bt" layoutX="268.0" layoutY="253.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #0C3F08;" text="Delete" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="home_bt" layoutX="461.0" layoutY="295.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="96.0" style="-fx-background-color: #0C3F08;" text="Home" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="home_btn" fitHeight="34.0" fitWidth="32.0" layoutX="50.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/360_F_366635299_S1MlOWCcUVFPwgtxznb89r56tvyBBBVU.jpg" />
+         </image>
+      </ImageView>
+      <Text fx:id="status" Text="" layoutX="231.0" layoutY="342.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="138.39996337890625" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sda.EmpController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="340.0" layoutX="30.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="540.0" />
+      <ImageView fitHeight="334.0" fitWidth="540.0" layoutX="38.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/transfer.png" />
+         </image>
+      </ImageView>
+      <Text fill="#0c3f08" layoutX="192.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an Option" wrappingWidth="254.46331787109375">
+         <font>
+            <Font name="Bodoni MT" size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="deposit_btn" layoutX="22.0" layoutY="104.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Deposit Cash" textFill="WHITE" />
+      <Button fx:id="withdraw_btn" layoutX="387.0" layoutY="97.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Withdraw" textFill="WHITE" />
+      <Button fx:id="approve_btn" layoutX="22.0" layoutY="157.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Approve loan" textFill="WHITE" />
+      <Button fx:id="edit_btn" layoutX="22.0" layoutY="210.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Edit Profile" textFill="WHITE" />
+      <Button fx:id="manage_btn" layoutX="387.0" layoutY="157.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Manage Customer Accounts" textFill="WHITE" />
+      <Button fx:id="logout_btn" layoutX="387.0" layoutY="210.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="190.0" style="-fx-border-radius: 50%; -fx-background-color: #0C3F08;" text="Log Out" textFill="WHITE" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,173 @@
+--------------------------------BANK MANAGEMENT SYSTEM-----------------------------------
+
+
+-------------------------------------------------------------------------------------------
+------------------------------------INTRODUCTION----------------------------------------
+-------------------------------------------------------------------------------------------
+
+This is a management system which allows the admin of a bank to create , remove and handle
+access of the employees on different functions like withdraw , deposit , create and delete.
+Similarly bank accounts for customers are opnened by employees by giving credentials to the
+system like user cnic and password. And then the user can sign up and login to the bank app
+through the password that has beeen kept for his account. 
+
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+---------------------------------HOW TO USE THE SYSTEM-------------------------------------
+-------------------------------------------------------------------------------------------
+
+As soon as you run the system three options are given to you based on your role.
+
+
+
+
+-------------------------------------------------------------------------------------------
+--------------------------------------ADMIN SIDE-------------------------------------------
+
+Clicking on the admin button would take you to the login page for the administrator. The 
+password and the username for the admin are fixed and when the administrator logs in to the 
+system he gets three options for manageing employees i-e:
+
+a)- Add user.
+		On clicking this option username , cnic and password of the new employee 
+		are added to create a new employee for the system.
+
+
+b)- Remove user.
+		On clicking this option the admin has to enter the cnic of the employee
+	        which is a unique identifier for the employee.
+
+		
+c)- Manage access of user.
+
+		When this option is selected a table opens up which has check boxes for 
+		each and and every access of every employee which the admin could give or 
+		take back from a secific employee. 
+
+
+Last but not the least a logout option is also provided on clicking which the admin logs 
+out of his account and main screen of system opens up.
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+
+-------------------------------------------------------------------------------------------
+--------------------------------------EMPLOYEE SIDE----------------------------------------
+-------------------------------------------------------------------------------------------
+
+Clicking on the employee button on the main page of the system cnic and password are to be 
+entered by the employees in order to log in to the system. When login is done, the employee
+gets 6 different options on his main screen that includes 
+
+a)- Deposit cash
+	
+	This option asks for account ID ie PK space follwed by the customer number , PIN 
+	and amount to be deposited by the customer into their account and confirm option 
+	does the job.
+
+b)- Withdraw
+	
+	This asks for the same credentials as deposit cash does and asks for the amount to 
+	be withdrawn.
+
+	
+c)- Approve loan.
+	
+	This option provides all the loan requests of the customers in the form of a list
+	and an approve button is provided which takes employee to an approve/dispprove page.
+	Which would allow the employee to see the details of the loan application os the 
+	customers and on clicking approve , he loan application is accepted, while clicking 
+	on reject button removes the loan request from the loan requests and discards it. 
+ 	
+d)- Manage customer accounts.
+
+	On clicking this option employee gets three more options to manage the 
+	customer accounts including:
+ 
+	A)Create account.
+
+		On clicking this option system asks the employee to enter name,cnic
+		and pin for the bank account of the customer to be added and then on
+		clicking create option a bank account for a customer is created ater 
+		checking through all the information entered by the employee
+
+	B) Delete account.
+
+		On selecting this option account id of the customer has to be entered
+	        in order to delete the customer bank account from the system.
+
+	C) View all accounts.
+
+		This option provides a table with all the accounts of customers and also
+		deactivate and activate option to the employee to manage the status of the
+		bank account of a soecific customer.
+
+
+e)- Edit profile.
+
+	On selecting this option the employee id is displayed along with current name 
+	set for the employee which the employee can edit as well as its phone number and
+        password for the account.
+
+
+and Lastly a logout option is also provided on clicking which the employee logs 
+out of his account and main screen of system opens up.
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------------
+--------------------------------------CUSTOMER SIDE-----------------------------------------
+-------------------------------------------------------------------------------------------
+
+On clicking the customer button on the main page of the system. The system opens up signup 
+and login option to the user to firstly signup to form an account in the app to get access
+to its bank account created in the bank and then secondly login to the system.
+
+The customer is provided with following options:
+
+a)- Edit profile.
+	 
+	On selecting this the user can change his name , phone number, password and pin set 
+	in the system.
+
+b)- Check balance.
+	
+	This option allows the user to check his/her last transaction and also current 
+	balance in the account.
+
+c)- Apply for loan.
+
+	This button provides the user with options like loan amount , intrest rate and 
+	payback duration to be entered by the user and repayment amount is calculated by 
+	the system and then on clicking apply button the loan is sent to the loans requests.
+	which the employees could accept or deny.
+
+
+d)- Bank statement.
+	
+	This option provides a table view in which all the transactions of the customer are
+	displayed and the details are also shown.
+	
+
+e)- Transfer cash.
+  
+	This option asks the user to enter the account id of the amount he wants to transfer
+	the amount to and n clicking transfer button the amount entered is deducted from the
+	account of the customer and sent to the other account id he entered.
+ 
+
+
+and Lastly a logout option is also provided on clicking which the customer logs 
+out of his account and main screen of system opens up.
+
+-------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------

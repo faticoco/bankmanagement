@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sda.BalanceController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="345.0" layoutX="29.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="543.0" />
+      <ImageView fitHeight="345.0" fitWidth="543.0" layoutX="30.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/balance%20info.png" />
+         </image>
+      </ImageView>
+      <Text fill="#06560e" layoutX="111.0" layoutY="88.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance Information">
+         <font>
+            <Font name="Bodoni MT Bold" size="29.0" />
+         </font>
+      </Text>
+      <Text fill="#000000" layoutX="43.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Account ID">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#000000" layoutX="43.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Last Transaction">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#000000" layoutX="45.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Balance amount">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="acc_id" fill="#06560e" layoutX="167.0" layoutY="170.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12xx-xxxx-xxxxx">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="trans" fill="#06560e" layoutX="189.0" layoutY="221.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="123.169921875">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <Text fx:id="balance" fill="#06560e" layoutX="189.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="25000 $">
+         <font>
+            <Font name="Bodoni MT" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="home_btn" fitHeight="35.0" fitWidth="28.0" layoutX="59.0" layoutY="65.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/360_F_366635299_S1MlOWCcUVFPwgtxznb89r56tvyBBBVU.jpg" />
+         </image>
+      </ImageView>
+      
+   </children>
+</AnchorPane>

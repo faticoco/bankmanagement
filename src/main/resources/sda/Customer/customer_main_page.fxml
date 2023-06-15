@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sda.custController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="50.0" fill="WHITE" height="345.0" layoutX="29.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="543.0" />
+      
+      <Text fill="#06560e" layoutX="104.0" layoutY="165.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="154.8515625">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#06560e" layoutX="83.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#06560e" layoutX="90.0" layoutY="316.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#06560e" layoutX="384.0" layoutY="317.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#06560e" layoutX="350.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#06560e" layoutX="364.0" layoutY="177.0" strokeType="OUTSIDE" strokeWidth="0.0">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="302.0" fitWidth="462.0" layoutX="83.0" layoutY="62.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/cust%20main.png" />
+         </image>
+      </ImageView>
+      <Text fill="#06560e" layoutX="197.0" layoutY="69.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Select an Option">
+         <font>
+            <Font name="Bodoni MT Bold" size="25.0" />
+         </font>
+      </Text>
+      <Button fx:id="edi_bt" layoutX="14.0" layoutY="106.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Edit Profile" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="loan_bt" layoutX="14.0" layoutY="150.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Apply for Loan" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="transfer_bt" layoutX="14.0" layoutY="279.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Transfer Cash" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="balance_bt" layoutX="14.0" layoutY="192.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Check Balance" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="statement_bt" layoutX="14.0" layoutY="235.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Bank Statement" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="logout" layoutX="14.0" layoutY="323.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="274.0" style="-fx-background-color: #0C3F08; -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.5, 0, 0);" text="Log Out" textFill="WHITE">
+         <font>
+            <Font name="Bell MT" size="18.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="home_btn" fitHeight="34.0" fitWidth="32.0" layoutX="37.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/360_F_366635299_S1MlOWCcUVFPwgtxznb89r56tvyBBBVU.jpg" />
+         </image>
+      </ImageView>
+
+      
+   </children>
+</AnchorPane>

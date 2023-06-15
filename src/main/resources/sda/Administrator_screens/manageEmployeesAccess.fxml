@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="340.0" layoutX="30.0" layoutY="22.0" stroke="BLACK" strokeType="INSIDE" width="540.0" />
+      <Text fill="#0c3f08" layoutX="171.0" layoutY="68.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employees Access" wrappingWidth="308.86334228515625">
+         <font>
+            <Font name="Bodoni MT" size="33.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#0d4b0b" height="40.0" layoutX="39.0" layoutY="98.0" stroke="BLACK" strokeType="INSIDE" width="523.0" />
+      <Text fill="WHITE" layoutX="53.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Employee ID      Deposit          Withdraw       Create Account     Delete Account" wrappingWidth="500.26898193359375">
+         <font>
+            <Font name="Bell MT" size="15.0" />
+         </font>
+      </Text>
+      
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" layoutX="42.0" layoutY="151.0" stroke="BLACK" strokeType="INSIDE" width="523.0" />
+      <Text layoutX="51.0" layoutY="171.0" strokeType="OUTSIDE" strokeWidth="0.0" text="123      " wrappingWidth="95.11956787109375" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" layoutX="38.0" layoutY="200.0" stroke="BLACK" strokeType="INSIDE" width="523.0" />
+      <Text layoutX="51.0" layoutY="222.0" strokeType="OUTSIDE" strokeWidth="0.0" text="124       " wrappingWidth="95.11956787109375" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" layoutX="38.0" layoutY="246.0" stroke="BLACK" strokeType="INSIDE" width="523.0" />
+      <Text layoutX="51.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="125         " wrappingWidth="95.11956787109375" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="33.0" layoutX="38.0" layoutY="293.0" stroke="BLACK" strokeType="INSIDE" width="523.0" />
+      <Text layoutX="51.0" layoutY="314.0" strokeType="OUTSIDE" strokeWidth="0.0" text="126        " wrappingWidth="95.11956787109375" />
+      <CheckBox fx:id="check_box_dep" layoutX="171.0" layoutY="158.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_del" layoutX="480.0" layoutY="158.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_crea" layoutX="369.0" layoutY="159.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_with" layoutX="263.0" layoutY="158.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_dep1" layoutX="171.0" layoutY="207.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_del1" layoutX="480.0" layoutY="207.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_crea1" layoutX="369.0" layoutY="208.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_with1" layoutX="263.0" layoutY="207.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_dep2" layoutX="171.0" layoutY="253.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_del2" layoutX="480.0" layoutY="253.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_crea2" layoutX="369.0" layoutY="254.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_with2" layoutX="263.0" layoutY="253.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_dep3" layoutX="171.0" layoutY="300.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_del3" layoutX="480.0" layoutY="300.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_crea3" layoutX="369.0" layoutY="301.0" mnemonicParsing="false" />
+      <CheckBox fx:id="check_box_with3" layoutX="263.0" layoutY="300.0" mnemonicParsing="false" />
+       <ImageView fx:id="home_btn" fitHeight="40.0" fitWidth="41.0" layoutX="506.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/360_F_366635299_S1MlOWCcUVFPwgtxznb89r56tvyBBBVU.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="back" fitHeight="40.0" fitWidth="41.0" layoutX="505.0" layoutY="38.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../2628817-200.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

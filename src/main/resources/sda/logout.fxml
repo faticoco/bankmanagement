@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #0C3F08;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="345.0" layoutX="29.0" layoutY="28.0" stroke="BLACK" strokeType="INSIDE" width="542.0" />
+      <Text fill="#06560e" layoutX="248.0" layoutY="158.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Log Out">
+         <font>
+            <Font name="Bodoni MT Bold" size="30.0" />
+         </font>
+      </Text>
+
+<Text fill="#06560e" layoutX="237.0" layoutY="194.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Good Banking!">
+         <font>
+            <Font name="Bodoni MT" size="20.0" />
+         </font>
+      </Text>
+
+     
+   </children>
+</AnchorPane>
